@@ -1,0 +1,29 @@
+﻿@model Employee
+
+@{
+	Layout = "_Layout";
+	ViewBag.Title = "Create";
+	ViewBag.Header = "Create";
+
+}
+
+	<h1>Add employee</h1>
+	
+	<form asp-controller="Employees" asp-action="Create">
+		
+		<label asp-for="Name"></label>
+		<input asp-for="Name" />
+		<strong><span asp-validation-for="Name"></span></strong>
+		
+		<label asp-for="Email"></label>
+		<input asp-for="Email" />
+		<strong><span asp-validation-for="Email"></span></strong>
+		<br />
+		<input type="submit" value="OK" />
+	</form>
+	@section scripts
+    {
+    <script src="/jquery/jquery.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.19.2/jquery.validate.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/mvc/5.2.3/jquery.validate.unobtrusive.min.js"></script>
+    }

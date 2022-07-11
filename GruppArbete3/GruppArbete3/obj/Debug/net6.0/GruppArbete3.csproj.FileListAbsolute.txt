@@ -1,0 +1,73 @@
+C:\Users\gabri\Documents\GitHub\mvc\GruppArbete3\GruppArbete3\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\gabri\Documents\GitHub\mvc\GruppArbete3\GruppArbete3\bin\Debug\net6.0\appsettings.json
+C:\Users\gabri\Documents\GitHub\mvc\GruppArbete3\GruppArbete3\bin\Debug\net6.0\GruppArbete3.exe
+C:\Users\gabri\Documents\GitHub\mvc\GruppArbete3\GruppArbete3\bin\Debug\net6.0\GruppArbete3.deps.json
+C:\Users\gabri\Documents\GitHub\mvc\GruppArbete3\GruppArbete3\bin\Debug\net6.0\GruppArbete3.runtimeconfig.json
+C:\Users\gabri\Documents\GitHub\mvc\GruppArbete3\GruppArbete3\bin\Debug\net6.0\GruppArbete3.dll
+C:\Users\gabri\Documents\GitHub\mvc\GruppArbete3\GruppArbete3\bin\Debug\net6.0\GruppArbete3.pdb
+C:\Users\gabri\Documents\GitHub\mvc\GruppArbete3\GruppArbete3\obj\Debug\net6.0\GruppArbete3.csproj.AssemblyReference.cache
+C:\Users\gabri\Documents\GitHub\mvc\GruppArbete3\GruppArbete3\obj\Debug\net6.0\GruppArbete3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabri\Documents\GitHub\mvc\GruppArbete3\GruppArbete3\obj\Debug\net6.0\GruppArbete3.AssemblyInfoInputs.cache
+C:\Users\gabri\Documents\GitHub\mvc\GruppArbete3\GruppArbete3\obj\Debug\net6.0\GruppArbete3.AssemblyInfo.cs
+C:\Users\gabri\Documents\GitHub\mvc\GruppArbete3\GruppArbete3\obj\Debug\net6.0\GruppArbete3.csproj.CoreCompileInputs.cache
+C:\Users\gabri\Documents\GitHub\mvc\GruppArbete3\GruppArbete3\obj\Debug\net6.0\GruppArbete3.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\gabri\Documents\GitHub\mvc\GruppArbete3\GruppArbete3\obj\Debug\net6.0\GruppArbete3.RazorAssemblyInfo.cache
+C:\Users\gabri\Documents\GitHub\mvc\GruppArbete3\GruppArbete3\obj\Debug\net6.0\GruppArbete3.RazorAssemblyInfo.cs
+C:\Users\gabri\Documents\GitHub\mvc\GruppArbete3\GruppArbete3\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\gabri\Documents\GitHub\mvc\GruppArbete3\GruppArbete3\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\gabri\Documents\GitHub\mvc\GruppArbete3\GruppArbete3\obj\Debug\net6.0\scopedcss\bundle\GruppArbete3.styles.css
+C:\Users\gabri\Documents\GitHub\mvc\GruppArbete3\GruppArbete3\obj\Debug\net6.0\GruppArbete3.dll
+C:\Users\gabri\Documents\GitHub\mvc\GruppArbete3\GruppArbete3\obj\Debug\net6.0\refint\GruppArbete3.dll
+C:\Users\gabri\Documents\GitHub\mvc\GruppArbete3\GruppArbete3\obj\Debug\net6.0\GruppArbete3.pdb
+C:\Users\gabri\Documents\GitHub\mvc\GruppArbete3\GruppArbete3\obj\Debug\net6.0\GruppArbete3.genruntimeconfig.cache
+C:\Users\gabri\Documents\GitHub\mvc\GruppArbete3\GruppArbete3\obj\Debug\net6.0\ref\GruppArbete3.dll
+C:\Users\Gabriel Karlsson\Documents\GitHub\mvc\GruppArbete3\GruppArbete3\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Gabriel Karlsson\Documents\GitHub\mvc\GruppArbete3\GruppArbete3\bin\Debug\net6.0\appsettings.json
+C:\Users\Gabriel Karlsson\Documents\GitHub\mvc\GruppArbete3\GruppArbete3\bin\Debug\net6.0\GruppArbete3.exe
+C:\Users\Gabriel Karlsson\Documents\GitHub\mvc\GruppArbete3\GruppArbete3\bin\Debug\net6.0\GruppArbete3.deps.json
+C:\Users\Gabriel Karlsson\Documents\GitHub\mvc\GruppArbete3\GruppArbete3\bin\Debug\net6.0\GruppArbete3.runtimeconfig.json
+C:\Users\Gabriel Karlsson\Documents\GitHub\mvc\GruppArbete3\GruppArbete3\bin\Debug\net6.0\GruppArbete3.dll
+C:\Users\Gabriel Karlsson\Documents\GitHub\mvc\GruppArbete3\GruppArbete3\bin\Debug\net6.0\GruppArbete3.pdb
+C:\Users\Gabriel Karlsson\Documents\GitHub\mvc\GruppArbete3\GruppArbete3\obj\Debug\net6.0\GruppArbete3.csproj.AssemblyReference.cache
+C:\Users\Gabriel Karlsson\Documents\GitHub\mvc\GruppArbete3\GruppArbete3\obj\Debug\net6.0\GruppArbete3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gabriel Karlsson\Documents\GitHub\mvc\GruppArbete3\GruppArbete3\obj\Debug\net6.0\GruppArbete3.AssemblyInfoInputs.cache
+C:\Users\Gabriel Karlsson\Documents\GitHub\mvc\GruppArbete3\GruppArbete3\obj\Debug\net6.0\GruppArbete3.AssemblyInfo.cs
+C:\Users\Gabriel Karlsson\Documents\GitHub\mvc\GruppArbete3\GruppArbete3\obj\Debug\net6.0\GruppArbete3.csproj.CoreCompileInputs.cache
+C:\Users\Gabriel Karlsson\Documents\GitHub\mvc\GruppArbete3\GruppArbete3\obj\Debug\net6.0\GruppArbete3.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Gabriel Karlsson\Documents\GitHub\mvc\GruppArbete3\GruppArbete3\obj\Debug\net6.0\GruppArbete3.RazorAssemblyInfo.cache
+C:\Users\Gabriel Karlsson\Documents\GitHub\mvc\GruppArbete3\GruppArbete3\obj\Debug\net6.0\GruppArbete3.RazorAssemblyInfo.cs
+C:\Users\Gabriel Karlsson\Documents\GitHub\mvc\GruppArbete3\GruppArbete3\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Gabriel Karlsson\Documents\GitHub\mvc\GruppArbete3\GruppArbete3\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Gabriel Karlsson\Documents\GitHub\mvc\GruppArbete3\GruppArbete3\obj\Debug\net6.0\scopedcss\bundle\GruppArbete3.styles.css
+C:\Users\Gabriel Karlsson\Documents\GitHub\mvc\GruppArbete3\GruppArbete3\obj\Debug\net6.0\GruppArbete3.dll
+C:\Users\Gabriel Karlsson\Documents\GitHub\mvc\GruppArbete3\GruppArbete3\obj\Debug\net6.0\refint\GruppArbete3.dll
+C:\Users\Gabriel Karlsson\Documents\GitHub\mvc\GruppArbete3\GruppArbete3\obj\Debug\net6.0\GruppArbete3.pdb
+C:\Users\Gabriel Karlsson\Documents\GitHub\mvc\GruppArbete3\GruppArbete3\obj\Debug\net6.0\GruppArbete3.genruntimeconfig.cache
+C:\Users\Gabriel Karlsson\Documents\GitHub\mvc\GruppArbete3\GruppArbete3\obj\Debug\net6.0\ref\GruppArbete3.dll
+C:\Users\Gabriel Karlsson\Documents\GitHub\mvc\GruppArbete3\GruppArbete3\bin\Debug\net6.0\libman.json
+C:\Users\Gabriel Karlsson\Documents\GitHub\mvc\GruppArbete3\GruppArbete3\bin\Debug\net6.0\GruppArbete3.staticwebassets.runtime.json
+D:\Git\mvc\GruppArbete3\GruppArbete3\bin\Debug\net6.0\appsettings.Development.json
+D:\Git\mvc\GruppArbete3\GruppArbete3\bin\Debug\net6.0\appsettings.json
+D:\Git\mvc\GruppArbete3\GruppArbete3\bin\Debug\net6.0\libman.json
+D:\Git\mvc\GruppArbete3\GruppArbete3\bin\Debug\net6.0\GruppArbete3.staticwebassets.runtime.json
+D:\Git\mvc\GruppArbete3\GruppArbete3\bin\Debug\net6.0\GruppArbete3.exe
+D:\Git\mvc\GruppArbete3\GruppArbete3\bin\Debug\net6.0\GruppArbete3.deps.json
+D:\Git\mvc\GruppArbete3\GruppArbete3\bin\Debug\net6.0\GruppArbete3.runtimeconfig.json
+D:\Git\mvc\GruppArbete3\GruppArbete3\bin\Debug\net6.0\GruppArbete3.dll
+D:\Git\mvc\GruppArbete3\GruppArbete3\bin\Debug\net6.0\GruppArbete3.pdb
+D:\Git\mvc\GruppArbete3\GruppArbete3\obj\Debug\net6.0\GruppArbete3.csproj.AssemblyReference.cache
+D:\Git\mvc\GruppArbete3\GruppArbete3\obj\Debug\net6.0\GruppArbete3.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git\mvc\GruppArbete3\GruppArbete3\obj\Debug\net6.0\GruppArbete3.AssemblyInfoInputs.cache
+D:\Git\mvc\GruppArbete3\GruppArbete3\obj\Debug\net6.0\GruppArbete3.AssemblyInfo.cs
+D:\Git\mvc\GruppArbete3\GruppArbete3\obj\Debug\net6.0\GruppArbete3.csproj.CoreCompileInputs.cache
+D:\Git\mvc\GruppArbete3\GruppArbete3\obj\Debug\net6.0\GruppArbete3.MvcApplicationPartsAssemblyInfo.cache
+D:\Git\mvc\GruppArbete3\GruppArbete3\obj\Debug\net6.0\GruppArbete3.RazorAssemblyInfo.cache
+D:\Git\mvc\GruppArbete3\GruppArbete3\obj\Debug\net6.0\GruppArbete3.RazorAssemblyInfo.cs
+D:\Git\mvc\GruppArbete3\GruppArbete3\obj\Debug\net6.0\staticwebassets.build.json
+D:\Git\mvc\GruppArbete3\GruppArbete3\obj\Debug\net6.0\staticwebassets.development.json
+D:\Git\mvc\GruppArbete3\GruppArbete3\obj\Debug\net6.0\scopedcss\bundle\GruppArbete3.styles.css
+D:\Git\mvc\GruppArbete3\GruppArbete3\obj\Debug\net6.0\GruppArbete3.dll
+D:\Git\mvc\GruppArbete3\GruppArbete3\obj\Debug\net6.0\refint\GruppArbete3.dll
+D:\Git\mvc\GruppArbete3\GruppArbete3\obj\Debug\net6.0\GruppArbete3.pdb
+D:\Git\mvc\GruppArbete3\GruppArbete3\obj\Debug\net6.0\GruppArbete3.genruntimeconfig.cache
+D:\Git\mvc\GruppArbete3\GruppArbete3\obj\Debug\net6.0\ref\GruppArbete3.dll

@@ -1,0 +1,26 @@
+﻿@model DateTime
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+
+    <h1>@ViewBag.Header</h1>
+
+    <div>
+        @RenderBody()
+    </div>
+
+    <a href="/Create">Add new employee</a>
+    <br />
+    <a href="/Index">Main menu</a>
+    <br />
+
+    <footer><partial name="_TimeBox" model="Model" /></footer>
+    @RenderSection("scripts", false)
+    
+</body>
+</html>
