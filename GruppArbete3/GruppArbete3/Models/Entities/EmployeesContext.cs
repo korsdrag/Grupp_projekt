@@ -16,19 +16,17 @@ namespace EmployeesProj.Models.Entities
         {
         }
 
+        public virtual DbSet<Company> Companies { get; set; } = null!;
         public virtual DbSet<Employee> Employees { get; set; } = null!;
-
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            if (!optionsBuilder.IsConfigured)
-            {
-                optionsBuilder.UseSqlServer("name=DefaultConnection");
-            }
-        }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.UseCollation("Finnish_Swedish_CI_AI");
+
+            modelBuilder.Entity<Company>(entity =>
+            {
+                entity.Property(e => e.CompanyName).HasMaxLength(50);
+            });
 
             modelBuilder.Entity<Employee>(entity =>
             {
@@ -37,6 +35,11 @@ namespace EmployeesProj.Models.Entities
                 entity.Property(e => e.Email).HasMaxLength(64);
 
                 entity.Property(e => e.Name).HasMaxLength(32);
+
+                entity.HasOne(d => d.Company)
+                    .WithMany(p => p.Employees)
+                    .HasForeignKey(d => d.CompanyId)
+                    .HasConstraintName("FK__Employees__Compa__38996AB5");
             });
 
             OnModelCreatingPartial(modelBuilder);

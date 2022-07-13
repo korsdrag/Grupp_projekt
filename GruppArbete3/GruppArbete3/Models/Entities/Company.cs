@@ -14,11 +14,5 @@ namespace EmployeesProj.Models.Entities
         public string? CompanyName { get; set; }
 
         public virtual ICollection<Employee> Employees { get; set; }
-       
-        public override string ToString()
-        {
-            return $"{CompanyName}";
-        }
     }
-
 }

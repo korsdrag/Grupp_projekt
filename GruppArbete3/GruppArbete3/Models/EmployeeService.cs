@@ -1,5 +1,5 @@
 ﻿using EmployeesProj.Models.Entities;
-using System.Text.Json;
+using Microsoft.EntityFrameworkCore;
 
 namespace EmployeesProj.Models
 {
@@ -13,13 +13,16 @@ namespace EmployeesProj.Models
             this.context = context;
         }
 
+
+
+
         public void Add(Employee employee)
         {
             context.Employees.Add(employee);   
             context.SaveChanges();
         }
 
-        public Employee[] GetAll() => context.Employees.ToArray();
+        public Employee[] GetAll() => context.Employees.Include("Company").ToArray();
 
         public Employee GetById(int id) => context.Employees.Find(id);
 

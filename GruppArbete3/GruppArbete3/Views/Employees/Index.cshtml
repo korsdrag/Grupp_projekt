@@ -8,7 +8,7 @@
     @foreach (var item in Model)
     {
         <li>
-            <a asp-controller="Employees" asp-action="Details" asp-route-id="@item.Id">@item.Name @item.CompanyId</a>
+            <a asp-controller="Employees" asp-action="Details" asp-route-id="@item.Id">@item.Name @item.Company.CompanyName</a>
             <partial name="_TimeBox" model="DateTime.Now" />
 
             <hr>
