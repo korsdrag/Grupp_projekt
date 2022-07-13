@@ -1,11 +1,24 @@
-﻿using GruppArbete3.Models;
+﻿using EmployeesProj.Models.Entities;
+using EmployeesProj.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace GruppArbete3.Controllers
+namespace EmployeesProj.Controllers
 {
     public class EmployeesController : Controller
     {
-        EmployeeService service = new EmployeeService();
+        EmployeeService service;
+
+        public EmployeesController(EmployeeService service)
+        {
+            this.service = service;
+        }
+
+        //IAboutService aboutService;
+
+        //public EmployeesController(IAboutService myService)
+        //{
+        //    this.aboutService = myService;
+        //}
 
         [Route("")]
         [Route("index")]

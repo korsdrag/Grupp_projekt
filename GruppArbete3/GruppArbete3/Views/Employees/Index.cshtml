@@ -1,16 +1,18 @@
 ﻿@model Employee[]
 @{
-	Layout = "_Layout";
-	ViewBag.Title = "Employees";
-	ViewBag.Header = "Employees";
+    ViewBag.Title = "Employees";
+    ViewBag.Header = "Employees";
 }
 
-	<ul>
-		@foreach (var item in Model)
-		{
-			<li>
-				<a asp-controller="Employees" asp-action="Details" asp-route-id="@item.Id">@item.Name</a>
-				<hr>
-			</li>
-		}
-	</ul>
+<ul>
+    @foreach (var item in Model)
+    {
+        <li>
+            <a asp-controller="Employees" asp-action="Details" asp-route-id="@item.Id">@item.Name @item.CompanyId</a>
+            <partial name="_TimeBox" model="DateTime.Now" />
+
+            <hr>
+        </li>
+    }
+</ul>
+
