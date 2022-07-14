@@ -1,6 +1,7 @@
 ﻿using EmployeesProj.Models.Entities;
 using EmployeesProj.Models;
 using Microsoft.AspNetCore.Mvc;
+using EmployeesProj.Views.Employees;
 
 namespace EmployeesProj.Controllers
 {
@@ -13,19 +14,13 @@ namespace EmployeesProj.Controllers
             this.service = service;
         }
 
-        //IAboutService aboutService;
-
-        //public EmployeesController(IAboutService myService)
-        //{
-        //    this.aboutService = myService;
-        //}
 
         [Route("")]
-        [Route("index")]
+        [Route("/index")]
         [HttpGet]
         public IActionResult Index()
         {
-            var model = service.GetAll();
+            var model = service.GetEmployeeIndex();
             return View(model);
         }
 
@@ -38,24 +33,77 @@ namespace EmployeesProj.Controllers
 
         [Route("/create")]
         [HttpPost]
-        public IActionResult Create(Employee employee)
+        public IActionResult Create(CreateVM model)
         {
             if (!ModelState.IsValid)
-                return View(employee);
+                return View(model);
 
-            service.Add(employee);
+            service.PostCreate(model);
             
             return RedirectToAction(nameof(Index));
         }
 
+        [Route("/addcompany")]
+        [HttpGet]
+        public IActionResult AddCompany()
+        {
+            return View();
+        }
+
+        [Route("/addcompany")]
+        [HttpPost]
+        public IActionResult AddCompany(AddCompanyVM model)
+        {
+            if (!ModelState.IsValid)
+                return View(model);
+
+            service.PostCompany(model);
+
+            return RedirectToAction(nameof(Index));
+        }
+
+
+        [Route("/delete/{id}")]
+        [HttpGet]
+        public IActionResult RemoveEmployee(int id)
+        {
+            service.PostRemoveEmployee(id);
+            return RedirectToAction(nameof(Index));
+        }
+
+        //[Route("/delete/{id}")]
+        //[HttpGet]
+        //public IActionResult RemoveCompany(int id)
+        //{
+        //    service.PostRemoveCompany(id);
+        //    return RedirectToAction(nameof(Index));
+        //}
+
+
+        
         [Route("/details/{id}")]
         [HttpGet]
         public IActionResult Details(int id)
         {
-            var model = service.GetById(id);
+            var model = service.GetEmployeeDetails(id);
+            return View(model);
+        }
+        
+        [Route("/listcompanies")]
+        [HttpGet]
+        public IActionResult ListCompanies(int id)
+        {
+            var model = service.GetCompanyIndex();
             return View(model);
         }
 
+        [Route("/companydetails/{id}")]
+        [HttpGet]
+        public IActionResult CompanyDetails(int id)
+        {
+            var model = service.GetCompanyDetails(id);
+            return View(model);
+        }
 
     }
 }

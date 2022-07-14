@@ -4,3 +4,7 @@ D:\Git\mvc\GruppArbete3\EmployeeDB\bin\Debug\EmployeeDB.pdb
 D:\Git\mvc\GruppArbete3\EmployeeDB\obj\Debug\EmployeeSQL.sqlproj.AssemblyReference.cache
 D:\Git\mvc\GruppArbete3\EmployeeDB\obj\Debug\EmployeeDB.dll
 D:\Git\mvc\GruppArbete3\EmployeeDB\obj\Debug\EmployeeDB.pdb
+D:\Git\mvc\GruppArbete3\EmployeeDB\obj\Debug\Model.xml
+D:\Git\mvc\GruppArbete3\EmployeeDB\obj\Debug\refactor.xml
+D:\Git\mvc\GruppArbete3\EmployeeDB\obj\Debug\postdeploy.sql
+D:\Git\mvc\GruppArbete3\EmployeeDB\obj\Debug\predeploy.sql

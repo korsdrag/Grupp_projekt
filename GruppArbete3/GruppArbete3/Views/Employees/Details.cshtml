@@ -1,9 +1,13 @@
-﻿@model Employee
+﻿@model DetailsVM
 @{
     ViewBag.Title = "Details";
     ViewBag.Header = "Details";
 }
-<label>@Model.Name</label>
-<label>@Model.Email</label>
+@*<label>Name: @Model.Name</label>
+<label>E-mail: @Model.Email</label>
+<label>Company: @Model.Company</label>*@
+<label>Name: @Model.EmployeeName</label>
+<label>E-mail: @Model.EmployeeEmail</label>
+<label>Company: @Model.CompanyName</label>
 
 

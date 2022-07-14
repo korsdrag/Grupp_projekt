@@ -1,0 +1,20 @@
+﻿@model AddCompanyVM
+@{
+    ViewBag.Title = "Add company";
+    ViewBag.Header = "Add company";
+}
+<form asp-controller="Employees" asp-action="AddCompany">
+
+    <label asp-for="CompanyName"></label>
+    <input asp-for="CompanyName" />
+    <strong><span asp-validation-for="CompanyName"></span></strong>
+
+    <br />
+    <input type="submit" value="OK" />
+</form>
+@section scripts
+    {
+    <script src="/jquery/jquery.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.19.2/jquery.validate.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/mvc/5.2.3/jquery.validate.unobtrusive.min.js"></script>
+    }

@@ -1,5 +1,18 @@
-﻿<!DOCTYPE html>
+﻿@*<!DOCTYPE html>
 
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+</head>
+<body style="display:flex; justify-content:center">
+
+</body>>
+</html>
+
+<!DOCTYPE html>
+*@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
@@ -9,15 +22,19 @@
 <body>
 
     <h1>@ViewBag.Header</h1>
+    <a href="/Create">Add new employee</a>
+    <br />
+    <a href="/addcompany">Add new company</a>
+    <br />
+    <a href="/listcompanies">List companies</a>
+    <br />
+    <a href="/Index">Main menu</a>
+    <br />
+
 
     <div>
         @RenderBody()
     </div>
-
-    <a href="/Create">Add new employee</a>
-    <br />
-    <a href="/Index">Main menu</a>
-    <br />
 
     @*<footer><partial name="_TimeBox" model="Model" /></footer>*@
     @RenderSection("scripts", false)

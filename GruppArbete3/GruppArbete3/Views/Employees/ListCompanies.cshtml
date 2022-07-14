@@ -1,0 +1,16 @@
+﻿@model ListCompaniesVM[]
+@{
+    ViewBag.Title = "Companies";
+    ViewBag.Header = "Companies";
+}
+
+<ul style="list-style: none;">
+    @foreach (var item in Model)
+    {
+        <li>
+            <a href="/companydetails/@item.Id">@item.CompanyName</a>
+            @*<a href="/delete/@item.Id" style="color:red">Remove</a>*@
+            <hr>
+        </li>
+    }
+</ul>
